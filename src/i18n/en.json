@@ -1,7 +1,51 @@
 {
-    "slogan": "San Service – The mobile unit that gets you back on the road.",
+    "slogan": "The mobile unit that gets you back on the road.",
+    "hero_subtitle": "24/6 roadside assistance and mobile mechanic in Ashdod and the Central District.",
     "call_now": "Call Now",
     "whatsapp": "Message on WhatsApp",
-    "services_title": "Our Services"
+    "nav_home": "Home",
+    "nav_services": "Services",
+    "nav_about": "About",
+    "nav_contact": "Contact",
+    "lang_he": "Hebrew",
+    "lang_en": "English",
+    "lang_ru": "Russian",
+    "services_title": "Our Services",
+"service_starter": "Starter Replacement",
+"service_alternator": "Alternator Replacement",
+"service_fuel": "Wrong Fuel Extraction",
+"service_insurance": "Insurance Processing",
+"service_coder": "Car Coder Installation",
+"about_title": "About Us",
+"about_paragraph_1": "San Service is a mobile mechanic unit that comes to you, offering on-site professional repair for any vehicle issue.",
+"about_paragraph_2": "With reliable and fast service, available 24/6, we make sure you’re back on the road quickly and safely.",
+"about_icon_services": "On-site repair services",
+"about_icon_hours": "Available 24/6",
+"about_icon_area": "Serving Ashdod & Central Israel",
+"about_paragraph_3": "With years of experience and advanced equipment in our mobile unit, we can handle any issue quickly and efficiently.",
+"about_paragraph_4": "Our mission is to provide peace of mind, knowing there's someone you can rely on – anytime, anywhere.",
+"contact_title": "Get in Touch",
+"contact_subtitle": "For any questions or issues – we're here to help.",
+"contact_location": "Ashdod & Surrounding Areas",
+"follow_us": "Follow Us Online",
+"follow_us_sub": "For updates, tips, and promotions – follow us on Instagram and Facebook",
+"footer_description": "San Service provides 24/6 mobile car services in Ashdod and the surrounding areas.",
+"footer_contact": "Contact",
+"footer_links": "Quick Links",
+"footer_hours": "24/6 – All days except Saturday",
+"footer_location": "Ashdod and surrounding area",
+"footer_rights": "All rights reserved.",
+"reviews_title": "What Our Customers Say",
+"faq_title": "Frequently Asked Questions",
+"faq_q1": "Which areas do you serve?",
+"faq_a1": "We provide service in Ashdod and centeral areas, depending on availability.",
+"faq_q2": "Are you available 24/7?",
+"faq_a2": "We’re available 24 hours, 6 days a week (excluding Shabbat).",
+"faq_q3": "What kind of repairs do you handle?",
+"faq_a3": "We handle electrical issues, jump starts, battery replacements, roadside fixes, and common mechanical problems."
+
+
+
+
   }
   

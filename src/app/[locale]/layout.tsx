@@ -1,16 +1,29 @@
 'use client'
 
 import { use } from 'react'
-import { useTranslation } from '@/i18n'
+import { initI18n } from '@/i18n'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+import FloatingWhatsApp from '@/components/FloatingWhatsApp'
 
-type Props = {
+export default function LocaleLayout({
+  children,
+  params,
+}: {
   children: React.ReactNode
   params: Promise<{ locale: string }>
-}
-
-export default function LocaleLayout({ children, params }: Props) {
+}) {
   const { locale } = use(params)
-  useTranslation(locale)
 
-  return <>{children}</>
+  // Only initialize — don't switch languages
+  initI18n(locale)
+
+  return (
+    <>
+      <Header locale={locale} />
+      {children}
+      <Footer />
+      <FloatingWhatsApp />
+    </>
+  )
 }

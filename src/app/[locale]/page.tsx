@@ -1,18 +1,23 @@
 'use client'
 
-import { use } from 'react'
-import { useTranslation } from '@/i18n'
+import AboutSection from '@/components/AboutSection'
+import ContactSection from '@/components/ContactSection'
+import FAQSection from '@/components/FAQSection'
+import HeroSection from '@/components/HeroSection'
+import ReviewsSection from '@/components/ReviewsSection'
+import ServicesSection from '@/components/ServicesSection'
 
-export default function HomePage({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = use(params)
-  const { t } = useTranslation(locale)
+export default function HomePage() {
+ 
 
   return (
-    <main className="min-h-screen p-8 text-center font-body">
-      <h1 className="text-4xl font-heading mb-6 text-[var(--color-brand-primary)]">
-        {t('slogan')}
-      </h1>
-      <button className="btn-primary">{t('call_now')}</button>
-    </main>
+    <>
+      <HeroSection />
+      <ServicesSection />
+      <ReviewsSection />
+      <AboutSection />
+      <FAQSection />
+      <ContactSection />
+    </>
   )
 }
